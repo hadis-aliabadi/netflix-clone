@@ -5,7 +5,7 @@ import { getFirestore } from "firebase/firestore";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
-console.log(process.env)
+
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey:process.env.REACT_APP_FIREBASE_API_KEY ,
@@ -16,20 +16,7 @@ const firebaseConfig = {
   appId:process.env.REACT_APP_APP_ID ,
   measurementId:process.env.REACT_APP_MEASUREMENT_ID
 };
-// apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-//   authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-//   projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-//   storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-//   messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER,
-//   appId: process.env.REACT_APP_APP_ID,
 
-// #   apiKey: "AIzaSyCJLYAqhcm9OH9fX37dlZgpUlFzSD035Ho",
-// #   authDomain: "netflix-react-ee882.firebaseapp.com",
-// #   projectId: "netflix-react-ee882",
-// #   storageBucket: "netflix-react-ee882.appspot.com",
-// #   messagingSenderId: "309901598058",
-// #   appId: "1:309901598058:web:d98029c3bb96cc96ef9913",
-// #   measurementId: "G-39RT2ET52C"
 
 
 // Initialize Firebase
